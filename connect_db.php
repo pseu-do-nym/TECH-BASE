@@ -1,8 +1,8 @@
 <?php
 
-    $dsn = 'mysql:dbname=tb220906db;host=localhost';
-    $user = 'tb-220906';
-    $password = '32U4f7YhTm';
+    $dsn = 'データベース';
+    $user = 'ユーザ名';
+    $password = 'パスワード';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
     $sql = "CREATE TABLE IF NOT EXISTS ARTICLE"

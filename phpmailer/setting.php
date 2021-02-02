@@ -5,10 +5,10 @@
 define('MAIL_HOST','smtp.gmail.com');
 
 // メールユーザー名・アカウント名・メールアドレスを@込でフル記述
-define('MAIL_USERNAME','web.development.super.tool@gmail.com');
+define('MAIL_USERNAME','メールアドレス');
 
 // メールパスワード・上で記述したメールアドレスに即したパスワード
-define('MAIL_PASSWORD','webdevelopmentsupertool');
+define('MAIL_PASSWORD','メールアドレスのパスワード');
 
 // SMTPプロトコル(sslまたはtls)
 define('MAIL_ENCRPT','ssl');
@@ -17,7 +17,7 @@ define('MAIL_ENCRPT','ssl');
 define('SMTP_PORT', 465);
 
 // メールアドレス・ここではメールユーザー名と同じでOK
-define('MAIL_FROM','web.development.super.tool@gmail.com');
+define('MAIL_FROM','メールアドレス');
 
 // 表示名
 define('MAIL_FROM_NAME','送信テスト');
