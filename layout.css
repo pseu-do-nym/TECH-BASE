@@ -1,0 +1,51 @@
+body{
+    width: 95vw;
+    margin:0 auto;
+}
+
+.head{
+    background-color:white;
+}
+
+.flex_item{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+}
+
+.menu{
+    flex:0 0 200px;
+    margin: 5px;
+    padding: 5px;
+    background-color:#ececdc;
+}
+
+.line{
+    width: 2px;
+    background-color: grey;
+}
+
+.main{
+    flex: 1 1 0;
+    margin: 5px;
+    padding: 5px;
+}
+
+button.btn-link{
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #0033cc;
+}
+button.btn-link:hover{
+    text-decoration: underline;
+    color: #002080;
+}
+
+button.btn-nohover{
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
